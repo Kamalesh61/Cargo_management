@@ -1,5 +1,5 @@
 CREATE DATABASE cargo_system;
-USE car_rental_system;
+USE cargo_system;
 
 CREATE TABLE Customer (
     customer_id INT PRIMARY KEY,
@@ -10,8 +10,8 @@ CREATE TABLE Customer (
 
 CREATE TABLE Cargo (
     cargo_id INT PRIMARY KEY,
-    model VARCHAR(50),
-    brand VARCHAR(50),
-    rent INT,
+    Description VARCHAR(50),
+    source VARCHAR(50),
+    weight INT,
     status VARCHAR(20)
 );
