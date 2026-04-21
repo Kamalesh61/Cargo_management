@@ -1,0 +1,17 @@
+CREATE DATABASE car_rental_system;
+USE car_rental_system;
+
+CREATE TABLE Customer (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    phone VARCHAR(15),
+    license VARCHAR(50)
+);
+
+CREATE TABLE Car (
+    car_id INT PRIMARY KEY,
+    model VARCHAR(50),
+    brand VARCHAR(50),
+    rent INT,
+    status VARCHAR(20)
+);
